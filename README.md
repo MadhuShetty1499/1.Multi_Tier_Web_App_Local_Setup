@@ -48,3 +48,6 @@ Path -> vagrant/Manual_provisioning/AppStackSetup.txt
   6. copy the ip address and paste it in browser
   7. Login as admin_vp (username and password both) check the services
 -----------------------------------------------
+
+* Credits
+- https://github.com/hkhcoder/vprofile-project
