@@ -1,13 +1,13 @@
 # 1.Multi_Tier_Web_App_Local_Setup
 Project - Multi Tier Web Application Setup Locally
---------------------------------------------------
+
 Before you start automating something, it's crucial to learn how to do it by hand first. This helps you understand it better and find any problems or ways to make it better. When you're good at doing it manually, you can then make it automatic, and it will work better in the end.
---------------------------------------------------
+
 In this project, I have given all the resources to setup Multi Tier Web Application stack:
 1. Manually
 2. Automated
 
-# Prerequisites
+* Prerequisites
 - JDK 11 
 - Maven 3 
 - MySQL 8
@@ -16,7 +16,7 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
 - Memcached
 - Rabbitmq
 
-# Database
+* Database
 Here,we used Mysql DB 
 sql dump file:
 - /src/main/resources/db_backup.sql
@@ -27,7 +27,7 @@ sql dump file:
 --------------------------------------------------
 # Manual Setup
 --------------------------------------------------
-# Application stack setup
+* Application stack setup
 The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
 Path -> vagrant/Manual_provisioning/AppStackSetup.txt
 
@@ -36,7 +36,7 @@ Path -> vagrant/Manual_provisioning/AppStackSetup.txt
 # Automated Setup
 --------------------------------------------------
 
-# VM SETUP
+* VM SETUP
 1. Clone source code.
 2. cd into the repository.
 3. cd into vagrant/Automated_provisioning
@@ -44,7 +44,7 @@ Path -> vagrant/Manual_provisioning/AppStackSetup.txt
 Bring up vm’s
 $ vagrant up
 
-# VALIDATION
+* VALIDATION
 Get the IP address
 $ ip addr show
 
