@@ -15,9 +15,7 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
   - Memcached
   - Rabbitmq
 
-* Database
-Here, we used Mysql DB 
-sql dump file:
+* Database - Here, we used Mysql DB 
   - /src/main/resources/db_backup.sql
   - db_backup.sql file is a mysql dump file. We have to import this dump to mysql db server
   - > mysql -u <user_name> -p<password> accounts < db_backup.sql
@@ -45,13 +43,8 @@ Path -> vagrant/Manual_provisioning/AppStackSetup.txt
   1. Clone source code.
   2. cd into the repository.
   3. cd into vagrant/Automated_provisioning
+  4. Bring up vm’s - $ vagrant up
+  5. VALIDATION - Get the IP address - $ ip addr show
+  6. copy the ip address and paste it in browser
+  7. Login as admin_vp (username and password both) check the services
 -----------------------------------------------
-Bring up vm’s
-$ vagrant up
-
-* VALIDATION
-- Get the IP address
-$ ip addr show
-
-- copy the ip address and paste it in browser
-- Login as admin_vp (username and password both) check the services
