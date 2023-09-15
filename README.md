@@ -34,8 +34,8 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
 # Manual Setup
 --------------------------------------------------
 * Application stack setup
-The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
-Path -> vagrant/Manual_provisioning/AppStackSetup.txt
+- The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
+- Path -> vagrant/Manual_provisioning/AppStackSetup.txt
 
 
 --------------------------------------------------
@@ -47,7 +47,9 @@ Path -> vagrant/Manual_provisioning/AppStackSetup.txt
   2. cd into the repository.
   3. cd into vagrant/Automated_provisioning
   4. Bring up vm’s - $ vagrant up
-  5. VALIDATION - Get the IP address - $ ip addr show
+  5. VALIDATION 
+      - Login to web01 vm - $ vagrant ssh web01
+      - Get the IP address - $ ip addr show
   6. copy the ip address and paste it in browser
   7. Login as admin_vp (username and password both) check the services
 -----------------------------------------------
