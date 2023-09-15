@@ -34,8 +34,8 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
 # Manual Setup
 --------------------------------------------------
 * Application stack setup
-- The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
-- Path -> vagrant/Manual_provisioning/AppStackSetup.txt
+  - The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
+  - Path -> vagrant/Manual_provisioning/AppStackSetup.txt
 
 
 --------------------------------------------------
