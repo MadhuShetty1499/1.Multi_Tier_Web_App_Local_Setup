@@ -16,8 +16,8 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
   - Rabbitmq
 
 * Database
-Here,we used Mysql DB 
-sql dump file:
+- Here,we used Mysql DB 
+- sql dump file:
   - /src/main/resources/db_backup.sql
   - db_backup.sql file is a mysql dump file. We have to import this dump to mysql db server
   - > mysql -u <user_name> -p<password> accounts < db_backup.sql
@@ -50,8 +50,8 @@ Bring up vm’s
 $ vagrant up
 
 * VALIDATION
-Get the IP address
+- Get the IP address
 $ ip addr show
 
-copy the ip address and paste it in browser
-Login as admin_vp (username and password both) check the services
+- copy the ip address and paste it in browser
+- Login as admin_vp (username and password both) check the services
