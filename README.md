@@ -7,6 +7,9 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
   2. Automated
 
 * Prerequisites
+  - Oracle VM Virtual Box
+  - Git bash
+  - Vagrant
   - JDK 11 
   - Maven 3 
   - MySQL 8
