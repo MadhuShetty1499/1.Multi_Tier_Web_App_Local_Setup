@@ -24,7 +24,11 @@ sql dump file:
 
 # Application Stack Architecture
 ![Architecture](images/Vprofile%20projectsetup%20Manual.png)
-
+  - Tomcat: Serves as the web server to host the Java-based application.
+  - MySQL: A relational database for storing user data securely.
+  - Nginx: Acts as a load balancer to distribute traffic across multiple application instances.
+  - Memcached: Provides caching capabilities for improved performance.
+  - RabbitMQ: Used for queuing and messaging between various application components.
 --------------------------------------------------
 # Manual Setup
 --------------------------------------------------
