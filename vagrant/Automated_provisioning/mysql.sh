@@ -10,7 +10,7 @@ sudo yum install mariadb-server -y
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
 cd /tmp/
-git clone -b main https://github.com/MadhuShetty1814/1.Multi_Tier_Web_App_Local_Setup.git
+git clone -b main https://github.com/MadhuShetty1499/1.Multi_Tier_Web_App_Local_Setup.git
 #restore the dump file for the application
 sudo mysqladmin -u root password "$DATABASE_PASS"
 sudo mysql -u root -p"$DATABASE_PASS" -e "DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1')"
