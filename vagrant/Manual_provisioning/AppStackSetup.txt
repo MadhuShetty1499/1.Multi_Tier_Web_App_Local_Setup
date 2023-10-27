@@ -108,7 +108,7 @@ mysql> FLUSH PRIVILEGES;
 mysql> exit;
 
 Download Source code & Initialize Database.
-$ git clone -b main https://github.com/MadhuShetty1814/1.Multi_Tier_Web_App_Local_Setup.git
+$ git clone -b main https://github.com/MadhuShetty1499/1.Multi_Tier_Web_App_Local_Setup.git
 $ cd 1.Multi_Tier_Web_App_Local_Setup
 $ mysql -u root -padmin123 accounts < src/main/resources/db_backup.sql
 $ mysql -u root -padmin123 accounts
@@ -233,7 +233,7 @@ $ firewall-cmd --reload
 CODE BUILD & DEPLOY (app01)
 
 Download Source code
-$ git clone -b main https://github.com/MadhuShetty1814/1.Multi_Tier_Web_App_Local_Setup.git
+$ git clone -b main https://github.com/MadhuShetty1499/1.Multi_Tier_Web_App_Local_Setup.git
 
 Update configuration
 $ cd 1.Multi_Tier_Web_App_Local_Setup
