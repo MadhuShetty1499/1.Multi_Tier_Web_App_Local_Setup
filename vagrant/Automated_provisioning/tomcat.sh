@@ -46,7 +46,7 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b main https://github.com/MadhuShetty1814/1.Multi_Tier_Web_App_Local_Setup.git
+git clone -b main https://github.com/MadhuShetty1499/1.Multi_Tier_Web_App_Local_Setup.git
 cd 1.Multi_Tier_Web_App_Local_Setup
 mvn install
 systemctl stop tomcat
